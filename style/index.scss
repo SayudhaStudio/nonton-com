@@ -10,6 +10,8 @@ h1, h2, h3, h4, h5, h6, p, span {
 .black-font {
     color: black;
 }
+
+@import './../components/header/header.scss';
 @import './../pages/index/home.scss';
 @import './../pages/details/detail.scss';
 @import './../pages/search/search.scss';

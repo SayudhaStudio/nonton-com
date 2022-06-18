@@ -1,0 +1,13 @@
+.search {
+	&-trailer {
+		border-left: 2px solid greenyellow;
+	}
+	&-video {
+		&__desc {
+			max-width: 450px;
+            @media screen and (max-width: 1200px) {
+                max-width: 100%;
+            }
+		}
+	}
+}

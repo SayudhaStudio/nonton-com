@@ -1,0 +1,30 @@
+.details {
+    &-hero {
+        position: relative;
+        &__img {
+            filter: blur(8px);
+        }
+    }
+    &-synopsis {
+        & img {
+            border-radius: 5px;
+            position: absolute;
+            top: 120px;
+
+            @media screen and (max-width: 1200px) {
+                position: unset;
+                margin: 1rem auto;
+            } 
+        }
+    }
+    .details-trailer {
+        border-left: 2px solid greenyellow;
+
+        @media screen and (max-width: 1024px) {
+            margin: 1rem auto;
+            display: inline-block;
+            border-left: none;
+            border-bottom: 2px solid greenyellow;
+        }
+    }
+}
